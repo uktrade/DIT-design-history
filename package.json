@@ -21,7 +21,6 @@
     "@11ty/eleventy": "^1.0.0",
     "govuk-eleventy-plugin": "^2.0.0",
     "http-server": "^14.0.0",
-    "reload": "^3.2.0",
     "rimraf": "^3.0.2",
     "sass": "^1.49.11"
   },
