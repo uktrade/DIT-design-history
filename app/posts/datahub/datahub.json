@@ -1,0 +1,6 @@
+{
+  "tags": ["datahub"],
+  "eleventyNavigation": {
+    "parent": "Home"
+  }
+}
