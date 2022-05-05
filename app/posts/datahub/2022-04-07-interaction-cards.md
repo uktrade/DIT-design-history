@@ -22,6 +22,7 @@ The User Researcher on the project had heard a number of comments from users whi
 * It was difficult to find specific information from the list of interactions
 * There was not enough information to get an overview of an interaction
 
+***
 ## Changes that were made
 ### 1. Making the interaction card design consistent across Data Hub
 There was inconsistency with the quantity of information displayed and design of the interaction cards, as shown below.
@@ -44,7 +45,7 @@ Changes included:
 * Styling of 'Service delivery' label to match the GDS tag pattern
 * Meta data in grey to match other goverment services and to allow heading to stand out more
 * Removal of accordion so it's easier to scan the information and reduces burden on Users
-* Consistent date format
+* Consistent date format, following the [GDS style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#dates)
 
 ### 2. Using language that is specific to the interaction type
 On the interaction card 'Adviser' was used for all types of interactions, but sometimes this wasn't  accurate. For example, for an event the phrasing 'Organiser' was used in other places on Data Hub.
@@ -65,6 +66,8 @@ The top-level service type uses a cut-down label so it doesn't repeat the theme 
 * Added communication channel
 
 Additional information was added to give users more context about the interaction while reviewing a company or contact's record. This gives a snippet of the note associated to the interaction and the communication channel. The hypothesis is this information would allow them to decide if they need to read the full interaction record and prevent unnecessary click throughs.
+
+On the Company record, there was very little information displayed. The information displayed was brought inline with the Contact record. 
 
 ![screenshot of additonal information on interaction cards](interaction-card--additional-info.png)
 
