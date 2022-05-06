@@ -57,8 +57,8 @@ The information shown in the header was different for the Contact and Company re
 Changes made:
 - Contact details shown in header
 - 'View full details' link to get to other record details, which are rarely used. This only shows when there are further details (all the further details are optional fields).
-- 'Add interaction' button made green and moved to the header. This is a key action users come to these records to complete so needed to be easy to access no matter what part of the record they were viewing.
-- On Company record, the 'Refer this company' button has also moved to the header, as this is a global actions not just tied to Activities. 
+- 'Add interaction' button made green and moved to the header. This is a key action users come to these records to complete so needed to be easy to access no matter what part of the record they were viewing. During a 3 month period (1 Feb to 30 Apr 2022) 31% of views of the interactions tab on the contact record clicked on the Add interaction button. 
+- On Company record, the 'Refer this company' button has also moved to the header, as this is a global actions not just tied to Activities.
 - Edit and Archive moved under the ‘View options’ button, as these are less common actions.
 
 ![screenshot of header on a Contact record](contact--header.png)
