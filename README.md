@@ -1,12 +1,15 @@
-# Design history for GOV.UK services
+# Design history for Department for International Trade services
 
-A place for you to document your GOV.UK service designs.
+A place for you to document your service designs.
 
-<https://design-history.herokuapp.com>
+<https://datahub-design-history.herokuapp.com/>
 
 ## Purpose of this project
 
-This repository makes it easy to:
+This provides a space to record design decisions.
+
+It is build using the design history template that is used by other goverment departments.
+This template makes it easy to:
 
 * screenshot your designs
 * create pages of screenshots to document designs

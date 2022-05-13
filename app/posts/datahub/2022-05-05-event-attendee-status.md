@@ -4,8 +4,8 @@ description: Providing additional information around event registration and atte
 author: Jacqueline D'Alcorn
 date: 2022-05-05
 tags:
-  - "Events"
-  - "Interactions"
+  - Events
+  - Interactions
 ---
 
 ## Why we were looking to make changes
@@ -17,12 +17,12 @@ This provided a fuller picture of interaction DIT had with a contact. By showing
 ## Changes that were made
 ### 1. Added different attendance statuses
 The statuses we decided on were:
-- Registered
-- Registration confirmed
-- Registration cancelled
-- Registered but did not attend
-- Attended
-- Attendance unknown
+* Registered
+* Registration confirmed
+* Registration cancelled
+* Registered but did not attend
+* Attended
+* Attendance unknown
 
 This is displayed next to the event name on the interaction in the activity tab. It is shown in grey so it is easier for users to find the status after then have found the event they are looking for.
 

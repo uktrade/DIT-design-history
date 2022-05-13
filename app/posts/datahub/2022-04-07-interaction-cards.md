@@ -4,9 +4,10 @@ description: Ensuring useful information is provided about interactions wherever
 author: Jacqueline D'Alcorn
 date: 2022-04-07
 tags:
-  - "Interactions"
-  - "Service labels"
+  - Interactions
+  - Service labels
 ---
+<span class="tags">{{ tags }}</span>
 
 ## Why we were looking to make changes
 1. Lots more data was going to be added to the platform, with automatic-sync from other systems. Therefore it was crucial for users to be able to find what they are looking for.
@@ -67,7 +68,7 @@ The top-level service type uses a cut-down label so it doesn't repeat the theme 
 
 Additional information was added to give users more context about the interaction while reviewing a company or contact's record. This gives a snippet of the note associated to the interaction and the communication channel. The hypothesis is this information would allow them to decide if they need to read the full interaction record and prevent unnecessary click throughs.
 
-On the Company record, there was very little information displayed. The information displayed was brought inline with the Contact record. 
+On the Company record, there was very little information displayed. The information displayed was brought inline with the Contact record.
 
 ![screenshot of additonal information on interaction cards](interaction-card--additional-info.png)
 

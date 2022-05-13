@@ -4,9 +4,9 @@ description: Making it clear to users when data is read-only so they don't attem
 author: Jacqueline D'Alcorn
 date: 2022-05-06
 tags:
-  - "Synced data"
-  - "Interactions"
-  - "Read-only data"
+  - Synced data
+  - Interactions
+  - Read-only data
 ---
 
 ## Why we were looking to make changes
@@ -23,8 +23,8 @@ When we first start to sync data from Aventri we will not have any additional in
 ### 2. Notifing users that data is not editable
 In places where users can normally edit data it was important to make it clear that users could not edit the data and to inform them of how to do this. There were several places this affected.
 
-- On the event details page
-- On the interaction page for a contact's attendance
+* On the event details page
+* On the interaction page for a contact's attendance
 
 Previously there has always been an 'edit' button on these records, but as it is synced data this is not possible. On these pages a notification banner has been added to the header to inform users that the data is synced and not editable. It also tells users how to edit the data if they needed to (by returning to Aventri). This notification banner follows the same pattern as other places in Datahub, for example the notification for archived data.  
 

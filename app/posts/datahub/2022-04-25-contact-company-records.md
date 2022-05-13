@@ -4,11 +4,11 @@ description: Creating a consistent layout for records, which allows space to fil
 author: Jacqueline D'Alcorn
 date: 2022-04-25
 tags:
-  - "Activity tab"
-  - "Contact filter"
-  - "Company filter"
-  - "Interactions"
-  - "Record header"
+  - Activity tab
+  - Contact filter
+  - Company filter
+  - Interactions
+  - Record header
 ---
 
 ## Why we were looking to make changes
@@ -47,19 +47,19 @@ Reasons for making this change:
 The addition of extra data sources meant there would soon be more data shown on both the Contact and Company records. Therefore it was important to provide users with a way to filter the data so they could find what they were looking for. The filter follows the same pattern that is used across Datahub, which also follows the GDS pattern.
 
 Filters that were added:
-- For Contact: adviser, team
-- For Company: contact, adviser, team
-- For both: Interaction type, Interaction topic, Data source
+* For Contact: adviser, team
+* For Company: contact, adviser, team
+* For both: Interaction type, Interaction topic, Data source
 
 ### 5. Adding contact details and key actions to the header
 The information shown in the header was different for the Contact and Company records. The Contact record only displayed the person's name and company. Whereas the Company record had contact information, an action button and a link to full details. This made it much easier to find information, rather than scrolling down the page and making the sure finding the correct tab to access those details.
 
 Changes made:
-- Contact details shown in header
-- 'View full details' link to get to other record details, which are rarely used. This only shows when there are further details (all the further details are optional fields).
-- 'Add interaction' button made green and moved to the header. This is a key action users come to these records to complete so needed to be easy to access no matter what part of the record they were viewing. During a 3 month period (1 Feb to 30 Apr 2022) 31% of views of the interactions tab on the contact record clicked on the Add interaction button. 
-- On Company record, the 'Refer this company' button has also moved to the header, as this is a global actions not just tied to Activities.
-- Edit and Archive moved under the ‘View options’ button, as these are less common actions.
+* Contact details shown in header
+* 'View full details' link to get to other record details, which are rarely used. This only shows when there are further details (all the further details are optional fields).
+* 'Add interaction' button made green and moved to the header. This is a key action users come to these records to complete so needed to be easy to access no matter what part of the record they were viewing. During a 3 month period (1 Feb to 30 Apr 2022) 31% of views of the interactions tab on the contact record clicked on the Add interaction button.
+* On Company record, the 'Refer this company' button has also moved to the header, as this is a global actions not just tied to Activities.
+* Edit and Archive moved under the ‘View options’ button, as these are less common actions.
 
 ![screenshot of header on a Contact record](contact--header.png)
 
