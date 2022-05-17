@@ -1,14 +1,22 @@
 ---
 title: Interaction cards
-description: Ensuring useful information is provided about interactions wherever the summary card is viewed. Making interaction cards consistent across Datahub.
+description: Ensuring useful information is provided about interactions wherever the summary card is viewed. Making interaction cards consistent across Data Hub.
 author: Jacqueline D'Alcorn
 date: 2022-04-07
-tags:
+service: Data Hub
+tag:
   - Interactions
   - Service labels
 ---
-<span class="tags">{{ tags }}</span>
 
+<span class="govuk-body govuk-!-margin-bottom-9">
+  <span class="govuk-tag">{{ service }}</span>
+  {% for item in tag %}
+    <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
+  {% endfor %}
+</span>
+
+***
 ## Why we were looking to make changes
 1. Lots more data was going to be added to the platform, with automatic-sync from other systems. Therefore it was crucial for users to be able to find what they are looking for.
 2. Content was repeated
@@ -17,7 +25,7 @@ tags:
 5. Users were encountering some problems
 
 ### User problems
-The User Researcher on the project had heard a number of comments from users whilst conducting research for other parts of Datahub. So, while no specific research was run on this area, we had a good feel for the problems users were facing. This included:
+The User Researcher on the project had heard a number of comments from users whilst conducting research for other parts of Data Hub. So, while no specific research was run on this area, we had a good feel for the problems users were facing. This included:
 
 * It was hard to scan the content
 * It was difficult to find specific information from the list of interactions

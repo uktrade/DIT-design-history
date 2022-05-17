@@ -1,0 +1,6 @@
+{
+  "tags": ["data-hub"],
+  "eleventyNavigation": {
+    "parent": "Data Hub"
+  }
+}

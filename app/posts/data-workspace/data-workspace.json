@@ -1,0 +1,6 @@
+{
+  "tags": ["data-workspace"],
+  "eleventyNavigation": {
+    "parent": "Data Workspace"
+  }
+}

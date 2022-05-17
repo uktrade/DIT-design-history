@@ -3,7 +3,8 @@ title: Making Company and Contact records consistent
 description: Creating a consistent layout for records, which allows space to filter activity and has comparable content and actions in the header area.
 author: Jacqueline D'Alcorn
 date: 2022-04-25
-tags:
+service: Data Hub
+tag:
   - Activity tab
   - Contact filter
   - Company filter
@@ -11,6 +12,14 @@ tags:
   - Record header
 ---
 
+<span class="govuk-body govuk-!-margin-bottom-9">
+  <span class="govuk-tag">{{ service }}</span>
+  {% for item in tag %}
+    <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
+  {% endfor %}
+</span>
+
+***
 ## Why we were looking to make changes
 1. Lots more data was going to be added to the platform, with automatic-sync from other systems. Therefore it was crucial for users to be able to find what they are looking for.
 2. The design was inconsistent across the platform.
@@ -18,8 +27,8 @@ tags:
 
 ***
 ## Changes that were made
-### 1. Making the interaction card design consistent across datahub
-See the [post on changes to interaction cards](/datahub/interaction-cards/).
+### 1. Making the interaction card design consistent across Data Hub
+See the [post on changes to interaction cards](/data-hub/interaction-cards/).
 
 ### 2. Making language consistent
 #### Using ‘Activity’ instead of 'Interactions'
@@ -31,7 +40,7 @@ Interactions was originally used because the feed was only displaying contact be
 
 ### 3. Moving the content tabs to the top  
 Reasons for making this change:
-1. Having the tabs along the top leaves additional space for the content in each tab. This was important because it provided a space, in the same location as other pages across Datahub, for filters to be added. These were likely to be needed with the addition of more data sources.
+1. Having the tabs along the top leaves additional space for the content in each tab. This was important because it provided a space, in the same location as other pages across Data Hub, for filters to be added. These were likely to be needed with the addition of more data sources.
 2. To make the layout consistent across the Contact and Company records. This makes it easier for users to navigate. Previously, tabs on the Contact record were down the left side whereas on the Company record they were along the top.
 3. Follows the GDS tabs pattern
 
@@ -44,7 +53,7 @@ Reasons for making this change:
 ![screenshot of tabs on a Company record](company--tabs.png)
 
 ### 4. Adding filters
-The addition of extra data sources meant there would soon be more data shown on both the Contact and Company records. Therefore it was important to provide users with a way to filter the data so they could find what they were looking for. The filter follows the same pattern that is used across Datahub, which also follows the GDS pattern.
+The addition of extra data sources meant there would soon be more data shown on both the Contact and Company records. Therefore it was important to provide users with a way to filter the data so they could find what they were looking for. The filter follows the same pattern that is used across Data Hub, which also follows the GDS pattern.
 
 Filters that were added:
 * For Contact: adviser, team
