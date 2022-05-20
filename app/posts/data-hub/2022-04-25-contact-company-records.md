@@ -12,13 +12,6 @@ tag:
   - Record header
 ---
 
-<span class="govuk-body govuk-!-margin-bottom-9">
-  <span class="govuk-tag">{{ service }}</span>
-  {% for item in tag %}
-    <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
-  {% endfor %}
-</span>
-
 ***
 ## Why we were looking to make changes
 1. Lots more data was going to be added to the platform, with automatic-sync from other systems. Therefore it was crucial for users to be able to find what they are looking for.

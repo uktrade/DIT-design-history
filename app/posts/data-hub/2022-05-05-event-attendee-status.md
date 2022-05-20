@@ -9,13 +9,6 @@ tag:
   - Interactions
 ---
 
-<span class="govuk-body govuk-!-margin-bottom-9">
-  <span class="govuk-tag">{{ service }}</span>
-  {% for item in tag %}
-    <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
-  {% endfor %}
-</span>
-
 ***
 ## Why we were looking to make changes
 While we were adding the data source for events we discovered there were additional statuses recorded in the system. These allowed us to see if a person had registered, if they had confirmed their registration and if they attended the event. From these details we could also infer if the person had not attended the event.

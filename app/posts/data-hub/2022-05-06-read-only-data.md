@@ -10,13 +10,6 @@ tag:
   - Read-only data
 ---
 
-<span class="govuk-body govuk-!-margin-bottom-9">
-  <span class="govuk-tag">{{ service }}</span>
-  {% for item in tag %}
-    <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
-  {% endfor %}
-</span>
-
 ***
 ## Why we were looking to make changes
 This work was done alongside syncing event data from Aventri. The technical solution for this, to prevent duplicate data across systems, was to have read-only content in Data Hub. Previously, events and attendees had been manually added to Data Hub and were editable. Therefore, we needed to make it clear to users they couldn't edit the synced data and that if they needed to make changes they needed to go to Aventri to do that.

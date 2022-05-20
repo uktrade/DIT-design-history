@@ -8,19 +8,14 @@ tag:
   - Events
   - Syncing data
 related:
+  title: Related links
   items:
   - text: Test
     href: https://miro.com/app/board/o9J_ldVNkCY=/
 ---
 
-<span class="govuk-body govuk-!-margin-bottom-9">
-  <span class="govuk-tag">{{ service }}</span>
-  {% for item in tag %}
-    <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
-  {% endfor %}
-</span>
-
 ***
+
 ## Why we were looking to make changes
 1. Users had to manually enter data into Data Hub, which was a lengthy process
 2. Sometimes manual entry was outsourced, which had cost implications

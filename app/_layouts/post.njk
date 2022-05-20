@@ -7,17 +7,26 @@
     <div class="govuk-grid-column-two-thirds">
       {% call appArticle({
         header: {
-          title: title
+          title: title,
+          service: service,
+          tag: tag
         },
         footer: {
           date: date,
           modified: modified,
           author: author,
-          authors: authors,
-          tags: tags
+          authors: authors
         },
         image: image
       }) %}
+
+        <span class="govuk-body govuk-!-margin-bottom-9">
+          <span class="govuk-tag">{{ service }}</span>
+          {% for item in tag %}
+            <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
+          {% endfor %}
+        </span>
+
         {{ content }}
 
         {% for collection in screenshots %}
@@ -28,10 +37,17 @@
       {% endcall %}
     </div>
 
-    {% if related.sections[0].items | length > 0 %}
-    <div class="govuk-grid-column-one-third">
-      {{ xGovukRelatedNavigation(related) }}
-    </div>
+    {% if related.items | length > 0 %}
+      <div class="govuk-grid-column-one-third">
+        <div class="x-govuk-related-navigation">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-2 govuk-!-margin-top-3">{{ related.title }}</h2>
+          {% for item in related.items %}
+            <a href="{{ item.href }}">{{ item.text }}</a>
+          {% endfor %}
+        </div>
+        <!-- {{ xGovukRelatedNavigation(related) }} -->
+      </div>
     {% endif %}
+
   </div>
 {% endblock %}
