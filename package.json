@@ -1,7 +1,7 @@
 {
   "name": "govuk-design-history",
   "version": "2.0.0",
-  "description": "A history of the design decisions made for Datahub, including key findings from analysis and research.",
+  "description": "A place to document the reasoning behind design decisions. Posts include key findings from analysis and research and iterations of designs to help understand the journey each service has been on.",
   "keywords": [
     "design-history",
     "government",

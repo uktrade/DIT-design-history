@@ -70,11 +70,11 @@ Changes made:
 #### Contact record – before
 ![screenshot of previous contact record](contact--previous.png)
 
-#### Company record – before
-![screenshot of previous company record](company--previous.png)
-
 #### Contact record – after
 ![screenshot of contact record after changes](contact--after.png)
+
+#### Company record – before
+![screenshot of previous company record](company--previous.png)
 
 #### Company record – after
 ![screenshot of company record after changes](company--after.png)
