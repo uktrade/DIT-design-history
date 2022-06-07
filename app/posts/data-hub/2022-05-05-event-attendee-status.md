@@ -4,6 +4,7 @@ description: Providing additional information around event registration and atte
 author: Jacqueline D'Alcorn
 date: 2022-05-05
 service: Data Hub
+epic: Event data  
 tag:
   - Events
   - Interactions

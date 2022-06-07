@@ -2,7 +2,7 @@
 override:tags: []
 layout: collection
 title: Data Hub
-description: An internal tool for seeing a single-view of DIT contact with a company and it's contacts.
+description: An internal tool for seeing a single-view of DIT contact with a company and its contacts.
 pagination:
   data: collections.data-hub
   reverse: true

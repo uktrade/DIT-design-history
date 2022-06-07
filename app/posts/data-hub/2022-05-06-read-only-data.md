@@ -4,6 +4,7 @@ description: Making it clear to users when data is read-only so they don't attem
 author: Jacqueline D'Alcorn
 date: 2022-05-06
 service: Data Hub
+epic: Event information
 tag:
   - Synced data
   - Interactions

@@ -1,3 +1,8 @@
 @import "govuk-frontend/govuk/base";
 @import "govuk-frontend/govuk/core/all";
 @import "../_components/all";
+
+.govuk-inset-text {
+  background-color: govuk-colour("light-grey");
+  border-left-color: govuk-colour("blue");
+}

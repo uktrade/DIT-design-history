@@ -4,6 +4,7 @@ description: Providing a fuller picture of events, registrants and attendees by 
 author: Jacqueline D'Alcorn
 date: 2022-05-09
 service: Data Hub
+epic: Event data 
 tag:
   - Events
   - Syncing data

@@ -4,6 +4,7 @@ description: Creating a consistent layout for records, which allows space to fil
 author: Jacqueline D'Alcorn
 date: 2022-04-25
 service: Data Hub
+epic: Finding information
 tag:
   - Activity tab
   - Contact filter
