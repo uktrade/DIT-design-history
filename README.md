@@ -1,14 +1,14 @@
 # Design history for Department for International Trade services
 
-A place for you to document your service designs.
+A place to document design decisions and show how a service changes over time.
 
-<https://datahub-design-history.herokuapp.com/>
+<https://dit-design-history.herokuapp.com/>
 
 ## Purpose of this project
 
 This provides a space to record design decisions.
 
-It is build using the design history template that is used by other goverment departments.
+It is build using the design history template that is used by other government departments.
 This template makes it easy to:
 
 * screenshot your designs
@@ -18,8 +18,9 @@ This template makes it easy to:
 * make designs shareable and linkable
 
 ## Installation and getting started
+Read the [Confluence page](https://uktrade.atlassian.net/wiki/spaces/CDS/pages/3236888624/Design+history) that explains how to get access and add posts.
 
-Read our guide on how to [set up a design history](https://design-history.herokuapp.com/set-up-a-design-history/).
+Guide from the original design history template, on how to [set up a design history](https://design-history.herokuapp.com/set-up-a-design-history/).
 
 ## Example design histories
 
