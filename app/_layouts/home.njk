@@ -1,4 +1,24 @@
 {% extends "layouts/product.njk" %}
+{% block header %}
+  <header class="govuk-header govuk-header--ws" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo govuk-header__logo--ws">
+        <a href="/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype govuk-header__logotype--ws">
+            <img aria-hidden="true" src="/static/webpack_bundles/dit-logo.png" srcset="/static/webpack_bundles/dit-logo@2x.png 2x" alt="Department for International Trade logo">
+            <span class="govuk-visually-hidden">Department for International Trade</span>
+          </span>
+        </a>
+      </div>
+      <div class="govuk-header__content">
+        <div class="app-site-search govuk-!-display-none-print" data-module="app-site-search" data-search-index="/search.json">
+          <label class="govuk-visually-hidden" for="app-site-search__input">Search site</label>
+          <a class="app-site-search__link govuk-link-no-visited" href="/sitemap">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock %}
 
 {% block content %}
   {{ content }}
