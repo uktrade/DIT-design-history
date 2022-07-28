@@ -6,7 +6,7 @@
 
 $dit-purple: #1e1348;
 $dit-lightpurple: #787191;
-$dit-lightestpurple: #c4c0d6;
+$dit-lightestpurple: #dbd5e9;
 $dit-red: #b00d23;
 $dit-beige: #f5f2ed;
 
@@ -53,10 +53,11 @@ $dit-beige: #f5f2ed;
 }
 
 
-// govuk ovverides 
+// govuk ovverides
 .govuk-inset-text {
   background-color: $dit-beige;
   border-left-color: govuk-colour("blue");
+}
 
 .govuk-tag {
   background: $dit-purple;
