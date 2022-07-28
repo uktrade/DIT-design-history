@@ -2,7 +2,46 @@
 @import "govuk-frontend/govuk/core/all";
 @import "../_components/all";
 
-.govuk-inset-text {
-  background-color: govuk-colour("light-grey");
-  border-left-color: govuk-colour("blue");
+// DIT styles
+
+.dit-header {
+  background: govuk-colour("white");
+  color: govuk-colour("black");
+  border-bottom: 10px solid #cf102d;
+  padding: 5px 0;
+}
+
+.dit-header__logotype-text {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.dit-header__link:link, .dit-header__link:visited {
+  color: govuk-colour("black");
+}
+
+.dit-header__container {
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 10px;
+  border-bottom: none;
+}
+
+.app-site-search__wrapper {
+  margin-top: 1px;
+}
+
+.app-site-search__hint, .app-site-search__input {
+  border: 2px solid govuk-colour("black");
+}
+
+// x-gov overrides
+
+.x-govuk-breadcrumbs--inverse {
+  border-bottom: 1px solid #fff;
+}
+
+.x-govuk-masthead {
+  margin-top: 0;
+  background: #1e1348;
 }
