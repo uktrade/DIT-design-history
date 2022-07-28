@@ -2,7 +2,25 @@
 @import "govuk-frontend/govuk/core/all";
 @import "../_components/all";
 
+$dit-purple: #1e1348;
+$dit-lightpurple: #787191;
+$dit-lightestpurple: #c4c0d6;
+$dit-red: #b00d23;
+$dit-beige: #f5f2ed;
+
 .govuk-inset-text {
-  background-color: govuk-colour("light-grey");
+  background-color: $dit-beige;
   border-left-color: govuk-colour("blue");
+}
+
+.govuk-tag {
+  background: $dit-purple;
+}
+.govuk-tag--purple {
+  color: $dit-purple;
+  background: $dit-lightestpurple;
+}
+.govuk-tag--beige {
+  color: $dit-purple;
+  background: $dit-beige;
 }
