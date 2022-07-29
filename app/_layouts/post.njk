@@ -47,9 +47,9 @@
 
         <span class="govuk-body govuk-!-margin-bottom-9">
           <span class="govuk-tag">{{ service }}</span>
-          <span class="govuk-tag govuk-tag--blue">{{ epic }}</span>
+          <span class="govuk-tag govuk-tag--purple">{{ epic }}</span>
           {% for item in tag %}
-            <span class="govuk-tag govuk-tag--grey govuk-!-margin-top-1">{{ item }}</span>
+            <span class="govuk-tag govuk-tag--beige govuk-!-margin-top-1">{{ item }}</span>
           {% endfor %}
         </span>
 
@@ -76,4 +76,5 @@
     {% endif %}
 
   </div>
+  <p class="app-document-footer__metadata">*Please note all data shown on this Design History is fake data.</p>
 {% endblock %}
