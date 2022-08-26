@@ -28,11 +28,9 @@
 {% from "screenshots/macro.njk" import appScreenshots %}
 
 {% block content %}
-  {% call appArticle({
-    header: {
+  {{ appDocumentHeader({
       title: title | noOrphans
-    }
-  }) %}
+  }) }}
     {{ content }}
 
     {% for collection in screenshots %}
