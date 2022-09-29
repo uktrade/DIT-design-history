@@ -41,5 +41,7 @@ The usage of both of the fields was significantly low. Therefore, we removed the
 We kept the field as optional but changed the label from "Notes (optional)" to "More details (optional)". We also added a hint text to the field: "Add anything you think is important about the contact, for example, an alternative phone number or email address.".
 
 ## Screenshots
+
 ![screenshot of an empty add contact form](add-contact-empty-form.png)
+
 ![screenshot of a filled in add contact form](add-contact-filled-in-form.png)

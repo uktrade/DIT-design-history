@@ -44,10 +44,18 @@ We asked users whether they'd like to get reminders for projects with approachin
 
 ***
 ## Screenshots
+
 ![screenshot of reminders section on the homepage](Reminders-section-on-the-homepage.png)
+
 ![screenshot of reminders page for projects with approaching estimated land dates](Reminders-for-approaching-estimated-land-dates.png)
+
 ![screenshot of reminders page for projects with no recent interaction](Reminders-for-projects-with-no-recent-interaction.png)
+
 ![screenshot of reminders and email notifications settings page with first accordion expanded](Reminders-and-email-notifications-settings-first-accordion-expanded.png)
+
 ![screenshot of reminders and email notifications settings page with second accordion expanded](Reminders-and-email-notifications-settings-second-accordion-expanded.png)
+
 ![screenshot of settings page for approaching estimated land dates](Settings-for-approaching-estimated-land-dates.png)
+
 ![screenshot of settings page for projects with no recent interaction](Settings-for-projects-with-no-recent-interaction.png)
+
