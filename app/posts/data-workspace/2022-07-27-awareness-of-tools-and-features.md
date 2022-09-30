@@ -34,7 +34,7 @@ related:
 4. To encourage users to explore Data Workspace
 
 ### User problems
-In UR conducted in early 2022 it was found that over half or receptive and engaged users who were interviewed had a limited understanding of what Data Workspace was capable of.
+In UR conducted in early 2022 it was found that over half of receptive and engaged users who were interviewed had a limited understanding of what Data Workspace was capable of.
 
 It was found that many users don’t navigate or search for features so they don’t learn about how they could better use their data. This also raises issues with users utilising external products to perform tasks available in Data Workspace which heightens the possibility of a data breach.
 
