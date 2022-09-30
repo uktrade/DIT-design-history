@@ -2,7 +2,7 @@
 title: Grouping and ordering collection list filters
 description: Sorting the filters by considering a logical order that we believed users would most benefit from.
 author: Caner Uzun
-date: 2022-09-29
+date: 2022-03-01
 service: Data Hub
 epic: Filters
 tag:

@@ -2,7 +2,7 @@
 title: Email notifications and reminders
 description: Reminding users about investment projects' estimated land dates and investment projects with no recent interaction.
 author: Caner Uzun
-date: 2022-09-29
+date: 2022-09-20
 service: Data Hub
 epic: Notifications
 tag:

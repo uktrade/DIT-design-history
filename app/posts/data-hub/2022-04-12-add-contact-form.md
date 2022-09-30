@@ -2,7 +2,7 @@
 title: Add contact form
 description: Rectifying the form in terms of improving user satisfaction on "Add an interaction" journey
 author: Caner Uzun
-date: 2022-09-29
+date: 2022-04-12
 service: Data Hub
 epic: Forms
 tag:
