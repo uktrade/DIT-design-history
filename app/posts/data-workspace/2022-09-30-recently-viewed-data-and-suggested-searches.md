@@ -22,7 +22,6 @@ In UR conducted in early 2022 it was found that users don't tend to explore data
 
 In previous research it was also found that a high proportion of users are very task-orientated and wouldn't browse pages for data which took them away from their intended journey.
 
-***
 ## Changes that were made
 
 After a round of user testing to validate the hypothesis that adding recently browsed data and suggested searches would encourage users to browse data and contribute to a more effective user journey for users, then these features were implemented on Data Workspace.
@@ -35,6 +34,6 @@ The features design and implementation was based on the suggested search used on
 ![screenshot of recently viewed data](recently-viewed-data.jpg)
 
 ### 2. Suggested search
-A suggested search was implemented to encourage users to explore data in Data Workspace. The feature collects search inputs from users and then returns results when someone has input some text which matches previous user queries. Suggested searches are then displayed, showing previous search queries which match the string, that return a result and ranked by popularity with a maximum of five. This creates a feature which allows users to learn from each other and benefit from real user searches which can show related data to content users are trying to find.
+A suggested search was implemented to encourage users to explore data in Data Workspace. The feature collects inputs from users and then returns results when someone has input text which matches previous user queries. Suggested searches are then displayed, showing previous search queries which match the string and return a result. These queries are ranked by popularity with a maximum of five displayed to the user. This creates a feature which allows users to learn from each other and benefit from real user searches which can show related data to content users are trying to find.
 
 ![screenshot of suggested search](suggested-searches.jpg)
