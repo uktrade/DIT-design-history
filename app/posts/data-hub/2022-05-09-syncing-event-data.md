@@ -23,7 +23,6 @@ related:
     href: https://docs.google.com/drawings/d/1d2erkuN-51jF-zjXh9av97enqTFAuHqQI4hVWUBIC7k
   - text: User research handover
     href: https://docs.google.com/document/d/1dHod-GLdAzInVvCoh8ukyY_zYCP9OXf2NDVtNYz7Ao0/edit#
-
 ---
 
 ***
