@@ -1,19 +1,22 @@
 ---
-title: Session details for events
-description: Understanding whether session information is useful to users
+title: Events – Session details and event set up
+description: Understanding whether session information is useful to users.
 author: Simon Hobeck and Jacqueline D'Alcorn
 date: 2022-09-08
 service: Data Hub
-epic: Events
+epic: Event data
 tag:
   - Sessions
+  - Event set up
 related:
   title: Related links
   items:
   - text: Round 1 design
-    href: https://trade.invisionapp.com/freehand/Roadmap-of-Event-sync-f12Fy8ipu
+    href: https://trade.invisionapp.com/prototype/DIT-events-attendees-cl155odxt00172z01d1b7i23m/play/125fdc7e
   - text: Round 2 prototype
     href: https://trade.invisionapp.com/prototype/Event-service-deliveries-cl7pxs7lm02ul3i011ln3axgc/play/df7be024
+  - text: Round 3 prototype
+    href: https://trade.invisionapp.com/prototype/DIT-events-full-flow-admin-switch-cl98hs5k90072k401n9zpkpjg/play/4a71b419
 ---
 
 ***
@@ -60,8 +63,20 @@ This helps users understand the event hierarchy and what type of event they are 
 ![Showing how the events within an event programme are displayed](event-programme-list.png)
 
 ### Round 3 - Admin-only ability to change the event set up  
-After consideration we realised that changing the event set up will be a fairly rare task. It will only be done for large scale event programme and only needs to be once for the event programme. The majority of events would not need to be changed.
+After consideration we realised that changing the event set up will be a fairly rare task. It will only be done for large scale event programmes and only needs to be once for the event programme. The majority of events would not need to be changed.
 
 There was also concern that users may accidentally change an event programme back to a single event and cause problems with the additional data that had been saved to the events/sessions.
 
 We therefore made the decision to reduce development effort for this feature and make it a task only admin/support staff can do. The display of the event programme and events would however remain as shown in round 2.
+
+The user would be able to request a change to the event set up and this would be sent to support, who could then contact the user to find out more information, if needed. The user can make this request to either convert from single to multiple events, or the other way round.
+
+##### Question that allows the user to request a change to the event set up
+
+![Showing the question to request a change to the event set up](request-event-set-up-change.png)
+
+##### Confirmation of their request and reference number
+
+![Showing the confirmation page for the request](request-event-set-up-change-sent.png)
+
+***

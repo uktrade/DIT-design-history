@@ -1,5 +1,5 @@
 ---
-title: Syncing event data
+title: Events – Syncing event data
 description: Providing a fuller picture of events, registrants and attendees by syncing data rather than relying on manual entry.
 author: Jacqueline D'Alcorn
 date: 2022-05-09
@@ -17,8 +17,6 @@ related:
     href: https://docs.google.com/presentation/d/1vOg9JoFQfsK20mPCqMTGSVw6SrRgvXggmD33ZgNUYeg/edit#slide=id.g11409d3f6c2_1_0
   - text: Adding attendees – Existing manual flow
     href: https://docs.google.com/drawings/d/1k-5V9eQ9qswaAK5AYrqRcoZiL3NsvtGiR5c0eE0no8Y
-  - text: Adding attendees – Proposed synced flow
-    href: https://trade.invisionapp.com/freehand/Datahub---Adding-registrants--attendees-oOLhA4tPz
   - text: User needs and journeys – event data
     href: https://docs.google.com/drawings/d/13S7qMo2JJ3jxnYU55Cwvlq4bIVHsLCGxE6nep4uuifE
   - text: User needs and journeys – reporting
@@ -34,10 +32,11 @@ Please note: this is long-term ongoing piece of work with multiple phases. See t
 ## Why we were looking to make changes
 1. Users had to manually enter data into Data Hub, which was a lengthy process
 2. Sometimes manual entry was outsourced, which had cost implications
-3. Data was not added to Data Hub for all events
+3. Data was not added to Data Hub for all events (only 15% of Aventri events were manually added to Data Hub)
 4. There was no set process around what data to enter, particularly around registrations vs attendees and funding applications
 5. Data that was entered did not get entered in a consistent format
-6. Missing data meant it was hard to run accurate reports
+6. Missing data made it hard to run accurate reports
+7. Missing data meant advisers and staff dealing with a company were missing useful information and context that would help with their conversations and help them give more tailored advice.
 
 ### User problems
 We ran 10 research sessions with users in various roles. These sessions covered why, when and what event infomation was added to Data Hub, the process used to add the data and what it was used for. From these sessions we discovered:
@@ -56,7 +55,7 @@ We ran 10 research sessions with users in various roles. These sessions covered 
 ### 1. Syncing event details
 Details about the event such as name, date and location are synced. This means users do not need to manually create the event in Data Hub.
 
-### 2. Syncing details of contact who register for Aventri events
+### 2. Syncing details of contacts who register for Aventri events
 Every person who registers for the event is synced to Data Hub.
 
 For those who are existing contacts in Data Hub (and can be matched using email address) the event registration is recorded against their record and their company.
@@ -67,3 +66,5 @@ For those who are NOT existing contacts in Data Hub their registration can only 
 Currently, attendance data is not available for all events in Aventri. We can only sync what is available so some events will not have this data in Data hub. Changes to the recording of attendance need to be made in the future to ensure this is always available.
 
 The events that do have attendance recorded will sync to Data Hub. This will update the attendee status. See the [post on changes to attendee status](/data-hub/event-attendee-status/) for more details.
+
+***

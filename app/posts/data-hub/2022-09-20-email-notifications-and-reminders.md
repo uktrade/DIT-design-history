@@ -59,3 +59,4 @@ We asked users whether they'd like to get reminders for projects with approachin
 
 ![screenshot of settings page for projects with no recent interaction](Settings-for-projects-with-no-recent-interaction.png)
 
+***

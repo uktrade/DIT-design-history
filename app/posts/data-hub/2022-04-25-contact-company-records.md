@@ -79,3 +79,5 @@ Changes made:
 
 #### Company record – after
 ![screenshot of company record after changes](company--after.png)
+
+***

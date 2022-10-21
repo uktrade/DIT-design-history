@@ -53,3 +53,5 @@ We also made some changes to filters and labels as there had been user research 
 Users had also been indicating that "Land date details" filter labels were not easy to understand. We replaced "before/after" with "from/to" as it'd also been consistent with other date filters on Data Hub.
 
 ![screenshot of investment projects list filters](projects-list-filters.png)
+
+***

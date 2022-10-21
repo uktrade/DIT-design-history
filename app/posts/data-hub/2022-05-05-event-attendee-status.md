@@ -1,5 +1,5 @@
 ---
-title: Adding statuses for event attendance  
+title: Events – Adding statuses for event attendance  
 description: Providing additional information around event registration and attendance so users in contact with Companies have a fuller picture of the contact's interest.
 author: Jacqueline D'Alcorn
 date: 2022-05-05
@@ -35,3 +35,5 @@ This is displayed next to the event name on the interaction in the activity tab.
 Adding interactions for events that contacts have not attended adds more data to Data Hub and therefore more data for users to navigate and look through to find that they need. Because of this it is important to provide ways to help users find what they need. Here is a design for a filter that could be added in the future.  
 
 ![screenshot of the attendance status filters](attendance--status-filters.png)
+
+***
