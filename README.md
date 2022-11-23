@@ -2,7 +2,7 @@
 
 A place to document design decisions and show how a service changes over time.
 
-<https://dit-design-history.herokuapp.com/>
+<https://dit-design-history.onrender.com/>
 
 ## Purpose of this project
 

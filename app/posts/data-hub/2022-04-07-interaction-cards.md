@@ -4,7 +4,7 @@ description: Ensuring useful information is provided about interactions wherever
 author: Jacqueline D'Alcorn
 date: 2022-04-07
 service: Data Hub
-epic: Finding information 
+epic: Finding information
 tag:
   - Interactions
   - Service labels
@@ -81,3 +81,13 @@ On the Company record, there was very little information displayed. The informat
 When viewing interactions from a Contact record the card displayed the Company and Contact name within each interaction card. This duplicated information that is displayed at the top of the record. This information always contained the name of the contact and company that was being viewed. This added strain on the user who needed to filter out this information while scanning down the interactions.
 
 ![screenshot of repeated information on interaction cards](interaction-card--repeated-information.png)
+
+***
+## Results
+The hypothesis was that if interaction cards show more useful information and give a better snapshot, that users wouldn't need to open up the interaction itself to find the information they need.
+
+5 weeks after the updates were released there was a 15% decrease in opening interactions, when comparing the daily average.
+
+<sup>This used data from 1 March 2022 to 13 September 2022 compared to 14 September 2022 to 19 October 2022 and excluded weekends and bank holidays when there is little activity. </sup>
+
+***

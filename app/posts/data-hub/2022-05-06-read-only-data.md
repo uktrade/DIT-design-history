@@ -4,7 +4,7 @@ description: Making it clear to users when data is read-only so they don't attem
 author: Jacqueline D'Alcorn
 date: 2022-05-06
 service: Data Hub
-epic: Event information
+epic: Event data
 tag:
   - Synced data
   - Interactions
@@ -19,7 +19,7 @@ This work was done alongside syncing event data from Aventri. The technical solu
 ### 1. Differentiating between interactions with more data
 Interactions created within Data Hub have a page that displays all the details about that interaction. That page is linked to from whereever a preview of the interaction is shown, for example on the Contact or Company activity feed.
 
-When we first start to sync data from Aventri we will not have any additional information than what is shown in the preview, so we do not need an additional page. Therefore, the interaction preview would not have a link on the heading and this would need to be clear to users so they do not attempt to click on the heading and think it isn't working. To make this differentiation the interaction preview heading was changed black instead of blue.
+When we first start to sync data from Aventri we will not have any additional information than what is shown in the preview, so we do not need an additional page. Therefore, the interaction preview would not have a link on the heading and this would need to be clear to users so they do not attempt to click on the heading and think it isn't working. To make this differentiation the interaction preview heading was black instead of blue.
 
 ![screenshot of heading without a link](interaction--nolink.png)
 
@@ -34,3 +34,5 @@ Previously there has always been an 'edit' button on these records, but as it is
 ![screenshot of interaction details page which has read-only content](interaction-details--read-only.png)
 
 ![screenshot of event details page which has read-only content](event-details--read-only.png)
+
+***

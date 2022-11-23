@@ -92,3 +92,5 @@ As a result of the user research it was decided that:
 *	Additional changes would be made in the navigation to accommodate learnings from UR sessions, such as removing the ‘About’ and ‘Our work’ sections
 *	'Your files' (the ability for users to upload their own data) would be surfaced in the header of Data Workspace
 * Research findings would also feed into work looking at personalisation and sharing of analysis, queries and data
+
+***

@@ -1,6 +1,6 @@
 ---
 title: Add contact form
-description: Rectifying the form in terms of improving user satisfaction on "Add an interaction" journey
+description: Rectifying the form in terms of improving user satisfaction on "Add an interaction" journey.
 author: Caner Uzun
 date: 2022-04-12
 service: Data Hub
@@ -45,3 +45,5 @@ We kept the field as optional but changed the label from "Notes (optional)" to "
 ![screenshot of an empty add contact form](add-contact-empty-form.png)
 
 ![screenshot of a filled in add contact form](add-contact-filled-in-form.png)
+
+***
