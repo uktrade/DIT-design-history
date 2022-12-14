@@ -1,6 +1,6 @@
 ---
 title: Events – Linking event data to Contact records
-description: When syncing data from another system to Data Hub there is not always a unique identifier to tie the data together with a record
+description: When syncing data from another system to Data Hub there is not always a unique identifier to tie the data together with a record.
 author: Jacqueline D'Alcorn
 date: 2022-10-21
 service: Data Hub
