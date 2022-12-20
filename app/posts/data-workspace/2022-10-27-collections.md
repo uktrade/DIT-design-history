@@ -16,8 +16,8 @@ tag:
 ## Why we were looking to make changes
 From previous research into personalisation and sharing, users had indicated the following:
 
-1. There was an expectation to share data directly from Data Workspace
-2. There was a need for shared spaces
+1. There was an expectation to share data directly from Data Workspace.
+2. There was a need for shared spaces.
 3. Majority of users use Data Workspace to complete a specific task/set of tasks.
 4. Users said they would like to see data that’s relevant to their field or usage. 
 
@@ -59,6 +59,6 @@ The ability to add users can change a personal collection to a shared collection
 
 ## Next steps
 Collections is currently live on Data Workspace, so the team is planning on having sessions in the new year to give users time to use collections before gathering feedback. From these sessions, we can gain insight into how people have utilised the collections feature in their work on Data Workspace and also any pain points which may have hindered their experience of collections so far. This is important so we can measure if collections has achieved its goals of:
-* Allowing users to share data with other Data Workspace users
+* Allowing users to share data with other Data Workspace users.
 * Improving day to day efficiency by keeping all of their commonly used datasets/visualisations in one area.
 * Giving users a more tailored and collaborative experience on Data Workspace.
