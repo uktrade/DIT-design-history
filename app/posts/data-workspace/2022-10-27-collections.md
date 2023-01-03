@@ -6,7 +6,6 @@ date: 2022-12-20
 service: Data Workspace
 epic: Collections
 tag:
-  - Collections
   - Finding data
   - Viewing data
   - Sharing data
@@ -19,7 +18,7 @@ From previous research into personalisation and sharing, users had indicated the
 1. There was an expectation to share data directly from Data Workspace.
 2. There was a need for shared spaces.
 3. Majority of users use Data Workspace to complete a specific task/set of tasks.
-4. Users said they would like to see data that’s relevant to their field or usage. 
+4. Users said they would like to see data that’s relevant to their field or usage.
 
 The Data Workspace team set out to create an area for users to find the data they use frequently easier, and also give the ability to share this data with others. A high-fidelity prototype was created to test some of the ideas which came out of the previous sessions and see if they added value, helped solve the identified problems, whether the conceptualised journeys and interfaces worked for the user and any other improvements which could be made.
 
