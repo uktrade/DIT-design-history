@@ -22,7 +22,7 @@
     "govuk-eleventy-plugin": "^4.0.0",
     "govuk-frontend": "^4.7.0",
     "http-server": "^14.1.1",
-    "rimraf": "^5.0.1",
+    "rimraf": "^6.0.1",
     "sass": "^1.79.4"
   },
   "devDependencies": {
